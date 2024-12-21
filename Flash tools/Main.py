@@ -27,7 +27,7 @@ def clear_screen():
 def afficher_options():
     print(colored('        Network                       Discord                        Utile', 'red'))
     print(colored('╔═════════════════════════════════════════════════════════════════════════════════════════╗', 'red'))
-    print(colored('║ I > Info              │ 7  > Discord Bot Server Nuker │ 14 > Virus builder              ║', 'red'))
+    print(colored('║ I > Info              │ 7  > Discord Bot Server Nuker │ 14 > Soon                       ║', 'red'))
     print(colored('║ 1 > Website scanner   │ 8  > Token Nuker              │ 15 > Soon                       ║', 'red'))
     print(colored('║ 2 > Sql scanner       │ 9  > Token Spammer            │ 16 > Soon                       ║', 'red'))
     print(colored('║ 3 > Phone lookup      │ 10 > Token login              │ 17 > Soon                       ║', 'red'))
@@ -62,8 +62,6 @@ def lancer_programme(choix):
         '10': os.path.join(base_dir, 'program', 'Discord-Token-Login.py'),
         '11': os.path.join(base_dir, 'program', 'Discord-Nitro-Generator.py'),
         '12': os.path.join(base_dir, 'program', 'Discord-Token-To-Id-And-Brute.py'),
-        '14': os.path.join(base_dir, 'program', 'Virus-Builder.py'),
-        '23112011': os.path.join(base_dir, 'program', 'Img', 'Ponice.py'),
     }
     
     if choix in programs:
